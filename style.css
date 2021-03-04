@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: rgb(240, 11, 118);
+    text-shadow:1px 1px 0 #444;
+    font-weight: bold;
+    font-family: "Barrio";
+    font-size: 80px;
+
+}
+
+p {
+    
+    color:rgb(252, 207, 7);
+    text-shadow:1px 1px 0 #444;
+    font-family: "Barrio";
+    font-size: 50px;
+}
+
+
+div {
+    text-align: center;
+    color:rgb(55, 116, 231);
+    font-family: "Barrio";
+    font-size: 30px;
+}
+
+body {
+    background-color: black;
+}
