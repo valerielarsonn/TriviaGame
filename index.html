@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sarpanch:wght@600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,14 +17,14 @@
 </head>
 <body>
     <h1>Trivia Game</h1>
-    <h4>PLAYER ONE STARTS THE GAME</h4>
-    <p id="category">"Category: " + $category</p>
+    <h4 id="playerTurn">hello</h4>
+    <p id="category"></p>
     <p id="difficulty"></p>
     <p id="question"></p>
-    <button class="wrong", id="answerA"></button>
-    <button id="answerB"></button>
-    <button class="wrong", id="answerC"></button>
-    <button class="wrong", id="answerD"></button>
+    <button class="answer wrong", id="answerA"></button>
+    <button class="answer right", id="answerB"></button>
+    <button class="answer wrong", id="answerC"></button>
+    <button class="answer wrong", id="answerD"></button>
 
     <div id="Scores"></div>
     <div>

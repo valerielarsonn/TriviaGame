@@ -1,3 +1,6 @@
+
+
+
 h1 {
     text-align: center;
     color: rgb(240, 11, 118);
@@ -8,12 +11,21 @@ h1 {
 
 }
 
+#playerTurn {
+    color: white;
+    font-family: "Barrio";
+    font-size: 40px;
+    margin: 10px;
+
+}
+
+
 p {
-    
     color:rgb(252, 207, 7);
     text-shadow:1px 1px 0 #444;
     font-family: "Barrio";
     font-size: 50px;
+    margin: 10px;
 }
 
 
@@ -22,8 +34,71 @@ div {
     color:rgb(55, 116, 231);
     font-family: "Barrio";
     font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
+
+#answerA {
+    background-color:rgb(15, 153, 50);
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+#answerB {
+    background-color:rgb(33, 77, 224);
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+#answerC {
+    background-color:rgb(148, 36, 240);
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+#answerD {
+    background-color:rgb(240, 36, 230);
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.wrong:hover {
+    color: black;
+    border-color: rgba(255,255,255,255);
+}
+
+.right:hover {
+    color: black;
+    border-color: rgb(255, 255, 255);
+}
+
+
 body {
-    background-color: black;
+   background-color: black; 
 }
