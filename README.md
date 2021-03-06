@@ -14,7 +14,7 @@
 ![Trivia Game](https://i.imgur.com/TGXb2zK.png)
 
 ## Live Site
-[Click Here](https://duckduckgo.com) to play Trivia!
+[Click Here](https://trivia-game-delta.vercel.app/) to play Trivia!
 
 
 ## Work In Progress
